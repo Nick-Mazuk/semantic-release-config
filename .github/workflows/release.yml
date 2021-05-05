@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-node@v2.1.5
         with:
           node-version: 14
+      - name: Install dependencies
+        run: npx pnpm i --frozen-lockfile=false
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

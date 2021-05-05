@@ -1,0 +1,24 @@
+{
+    "name": "@nick-mazuk/semantic-release-config",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@semantic-release/changelog": "^5.0.1",
+        "prettier": "^2.2.1",
+        "semantic-release": "^17.4.2"
+    },
+    "peerDependencies": {
+        "@semantic-release/changelog": "^5.0.1",
+        "semantic-release": "^17.4.2"
+    },
+    "files": [
+        "index.js"
+    ]
+}

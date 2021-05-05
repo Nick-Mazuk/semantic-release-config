@@ -1,0 +1,21 @@
+name: Dependabot
+
+on:
+  push:
+    branches:
+      - "dependabot**"
+
+jobs:
+  update-lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 14
+      - run: npx pnpm i --lockfile-only
+      - name: push lockfile to branch
+        uses: actions-js/push@v1.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

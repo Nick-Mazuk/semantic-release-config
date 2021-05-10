@@ -9,7 +9,7 @@ specifiers:
 devDependencies:
   '@semantic-release/changelog': 5.0.1_semantic-release@17.4.2
   '@semantic-release/git': 9.0.0_semantic-release@17.4.2
-  prettier: 2.2.1
+  prettier: 2.3.0
   semantic-release: 17.4.2
 
 packages:
@@ -206,8 +206,8 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/github/7.2.2_semantic-release@17.4.2:
-    resolution: {integrity: sha512-nYKxp0sfoFrHn2uNbhkon8oAxIffWPfu5LEEVs8I5Eqv/0IHvU+Kr3u8l4BTD+NNHA9ATTdy2bhQqQrZJ7wTvQ==}
+  /@semantic-release/github/7.2.3_semantic-release@17.4.2:
+    resolution: {integrity: sha512-lWjIVDLal+EQBzy697ayUNN8MoBpp+jYIyW2luOdqn5XBH4d9bQGfTnjuLyzARZBHejqh932HVjiH/j4+R7VHw==}
     engines: {node: '>=10.18'}
     peerDependencies:
       semantic-release: '>=16.0.0 <18.0.0'
@@ -246,7 +246,7 @@ packages:
       lodash: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 6.0.0
-      npm: 7.11.2
+      npm: 7.12.0
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.2.1
@@ -850,8 +850,8 @@ packages:
       is-glob: 4.0.1
     dev: true
 
-  /glob/7.1.6:
-    resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
+  /glob/7.1.7:
+    resolution: {integrity: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==}
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -1011,8 +1011,8 @@ packages:
     resolution: {integrity: sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=}
     dev: true
 
-  /is-core-module/2.3.0:
-    resolution: {integrity: sha512-xSphU2KG9867tsYdLD4RWQ1VqdFl4HTO9Thf3I/3dLEfr0dbPTWKsuCKrgqMljg4nPE+Gq0VCnzT3gr0CyBmsw==}
+  /is-core-module/2.4.0:
+    resolution: {integrity: sha512-6A2fkfq1rfeQZjxrZJGerpLCTHRNEBiSgnu0+obeJpEPZRUooHgsizvzv0ZjJwOz3iWIHdJtVWJ/tmPr3D21/A==}
     dependencies:
       has: 1.0.3
     dev: true
@@ -1360,8 +1360,8 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /npm/7.11.2:
-    resolution: {integrity: sha512-NxcaNqAfdLEubG5dlPFWbXrVAG2zb45lB5y6W3PK1PK2feHaffpCN4rnXPD/BPp1kCJespCAv8Kw/QUYR85BRw==}
+  /npm/7.12.0:
+    resolution: {integrity: sha512-8Zvas3+1zKtE4uXIxHWRpg1bqGNrOta9RTDZWJ2k+EfOfzOggPQh9N4jHtsrIuGLawXv9xCWyvauke1UWMOMoA==}
     engines: {node: '>=10'}
     hasBin: true
     dev: true
@@ -1599,8 +1599,8 @@ packages:
       load-json-file: 4.0.0
     dev: true
 
-  /prettier/2.2.1:
-    resolution: {integrity: sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==}
+  /prettier/2.3.0:
+    resolution: {integrity: sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -1719,7 +1719,7 @@ packages:
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
     dependencies:
-      is-core-module: 2.3.0
+      is-core-module: 2.4.0
       path-parse: 1.0.6
     dev: true
 
@@ -1737,7 +1737,7 @@ packages:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
     dev: true
 
   /run-parallel/1.2.0:
@@ -1761,7 +1761,7 @@ packages:
     dependencies:
       '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.4.2
       '@semantic-release/error': 2.2.0
-      '@semantic-release/github': 7.2.2_semantic-release@17.4.2
+      '@semantic-release/github': 7.2.3_semantic-release@17.4.2
       '@semantic-release/npm': 7.1.3_semantic-release@17.4.2
       '@semantic-release/release-notes-generator': 9.0.2_semantic-release@17.4.2
       aggregate-error: 3.1.0

@@ -14,7 +14,7 @@ Install the config and it's peer dependencies.
 pnpm i -D @nick-mazuk/semantic-release-config semantic-release @semantic-release/changelog @semantic-release/git
 ```
 
-Create a `release.config.js` file in the root of your repo.
+Create a `release.config.cjs` file in the root of your repo.
 
 ```js
 module.exports = {

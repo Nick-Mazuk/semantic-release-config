@@ -214,8 +214,8 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/github/8.0.1_semantic-release@18.0.0:
-    resolution: {integrity: sha512-T01lfh4yBZodAeo8t0U+W5hmPYR9BdnfwLDerXnGaYeLXm8+KMx4mQEBAf/UbRVlzmIKTqMx+/s9fY/mSQNV0A==}
+  /@semantic-release/github/8.0.2_semantic-release@18.0.0:
+    resolution: {integrity: sha512-wIbfhOeuxlYzMTjtSAa2xgr54n7ZuPAS2gadyTWBpUt2PNAPgla7A6XxCXJnaKPgfVF0iFfSk3B+KlVKk6ByVg==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0-beta.1'
@@ -232,7 +232,7 @@ packages:
       https-proxy-agent: 5.0.0
       issue-parser: 6.0.0
       lodash: 4.17.21
-      mime: 2.5.2
+      mime: 3.0.0
       p-filter: 2.1.0
       p-retry: 4.6.1
       semantic-release: 18.0.0
@@ -241,8 +241,8 @@ packages:
       - supports-color
     dev: true
 
-  /@semantic-release/npm/8.0.2_semantic-release@18.0.0:
-    resolution: {integrity: sha512-ky7QczJGExZJnS8wjdhag1EV+T3u/DbcxqpBQOIZu1fcJYKsGxr2uK9guc/H2cg0yFCto5atbuZm2sZmaG5qxg==}
+  /@semantic-release/npm/8.0.3_semantic-release@18.0.0:
+    resolution: {integrity: sha512-Qbg7x/O1t3sJqsv2+U0AL4Utgi/ymlCiUdt67Ftz9HL9N8aDML4t2tE0T9MBaYdqwD976hz57DqHHXKVppUBoA==}
     engines: {node: '>=14.17'}
     peerDependencies:
       semantic-release: '>=18.0.0'
@@ -855,7 +855,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.7
-      ignore: 5.1.8
+      ignore: 5.1.9
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -874,7 +874,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.14.2
+      uglify-js: 3.14.3
     dev: true
 
   /hard-rejection/2.1.0:
@@ -941,8 +941,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /ignore/5.1.8:
-    resolution: {integrity: sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==}
+  /ignore/5.1.9:
+    resolution: {integrity: sha512-2zeMQpbKz5dhZ9IwL0gbxSW5w0NK/MSAMtNuhgIHEPmaU3vPdKPL0UdvUCXs5SS4JAwsBxysK5sFMW8ocFiVjQ==}
     engines: {node: '>= 4'}
     dev: true
 
@@ -1242,9 +1242,9 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /mime/2.5.2:
-    resolution: {integrity: sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==}
-    engines: {node: '>=4.0.0'}
+  /mime/3.0.0:
+    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
+    engines: {node: '>=10.0.0'}
     hasBin: true
     dev: true
 
@@ -1740,8 +1740,8 @@ packages:
     dependencies:
       '@semantic-release/commit-analyzer': 9.0.1_semantic-release@18.0.0
       '@semantic-release/error': 3.0.0
-      '@semantic-release/github': 8.0.1_semantic-release@18.0.0
-      '@semantic-release/npm': 8.0.2_semantic-release@18.0.0
+      '@semantic-release/github': 8.0.2_semantic-release@18.0.0
+      '@semantic-release/npm': 8.0.3_semantic-release@18.0.0
       '@semantic-release/release-notes-generator': 10.0.2_semantic-release@18.0.0
       aggregate-error: 3.1.0
       cosmiconfig: 7.0.1
@@ -2041,8 +2041,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /uglify-js/3.14.2:
-    resolution: {integrity: sha512-rtPMlmcO4agTUfz10CbgJ1k6UAoXM2gWb3GoMPPZB/+/Ackf8lNWk11K4rYi2D0apgoFRLtQOZhb+/iGNJq26A==}
+  /uglify-js/3.14.3:
+    resolution: {integrity: sha512-mic3aOdiq01DuSVx0TseaEzMIVqebMZ0Z3vaeDhFEh9bsc24hV1TFvN74reA2vs08D0ZWfNjAcJ3UbVLaBss+g==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true

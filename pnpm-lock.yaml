@@ -270,7 +270,7 @@ packages:
       lodash: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 6.1.0
-      npm: 8.8.0
+      npm: 8.9.0
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.2.1
@@ -1193,7 +1193,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /marked-terminal/5.1.1_marked@4.0.14:
+  /marked-terminal/5.1.1_marked@4.0.15:
     resolution: {integrity: sha512-+cKTOx9P4l7HwINYhzbrBSyzgxO2HaHKGZGuB1orZsMIgXYaJyfidT81VXRdpelW/PcHEWxywscePVgI/oUF6g==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
@@ -1203,13 +1203,13 @@ packages:
       cardinal: 2.1.1
       chalk: 5.0.1
       cli-table3: 0.6.2
-      marked: 4.0.14
+      marked: 4.0.15
       node-emoji: 1.11.0
       supports-hyperlinks: 2.2.0
     dev: true
 
-  /marked/4.0.14:
-    resolution: {integrity: sha512-HL5sSPE/LP6U9qKgngIIPTthuxC0jrfxpYMZ3LdGDD3vTnLs59m2Z7r6+LNDR3ToqEQdkKd6YaaEfJhodJmijQ==}
+  /marked/4.0.15:
+    resolution: {integrity: sha512-esX5lPdTfG4p8LDkv+obbRCyOKzB+820ZZyMOXJZygZBHrH9b3xXR64X4kT3sPe9Nx8qQXbmcz6kFSMt4Nfk6Q==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -1349,8 +1349,8 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /npm/8.8.0:
-    resolution: {integrity: sha512-MDHVaj0zrinLkshylII8pT46VCkAUqQfYRS+pyuuZZtBZRRphH/IG5HC1YbIc77AX5FmLUWGvu23Kah5fscIbw==}
+  /npm/8.9.0:
+    resolution: {integrity: sha512-4mhU5nEv7ktvHmJnM2nmWP2Zk4cCsD26imX+dvZ76HOuFUnIpU6+i1MWuoMg8N/xWHQgB0d2/ybWEGgJR9M/pw==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16}
     hasBin: true
     dev: true
@@ -1763,8 +1763,8 @@ packages:
       hook-std: 2.0.0
       hosted-git-info: 4.1.0
       lodash: 4.17.21
-      marked: 4.0.14
-      marked-terminal: 5.1.1_marked@4.0.14
+      marked: 4.0.15
+      marked-terminal: 5.1.1_marked@4.0.15
       micromatch: 4.0.5
       p-each-series: 2.2.0
       p-reduce: 2.1.0
